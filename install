@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+echo "Instalando Flash VLC e Codec"
+		sleep 2
+		sudo apt install adobe-flashplugin
+		sudo apt install ubuntu-restricted-extras
+		sudo apt install vlc
+		echo ""
+		echo "Flash, VLC e codec instalados."
+		sleep 4
+		
+esac
+done
