@@ -1,0 +1,81 @@
+#!/bin/bash
+
+#while true; do
+#clear
+
+ echo "============================================================"
+ echo "Unity tweak tool: Instalando o unity tweak tool para Ubuntu e Linux Mint."
+ echo "Canal TELEGRAM: @terminalgnulinux | @UbuntuBrasilOficial."
+ echo "Criado por: @J053C7U4 | Data:22/05/2016"
+ echo "Escrito por: @skysy | Data:22/05/2016"
+ echo "Versão: 0.1.0"
+ echo "==========================================================="
+
+ echo "============================================================="
+ echo "instalando o unity tweak tool"
+ echo "============================================================="
+ echo "Removendo o seu unity tweak tool"
+		sleep 2
+	sudo apt-get remove - -purge unity-tweak-tool
+		sleep 4
+
+ echo "Atualizando!!"
+		sleep 2
+	sudo apt-get upgrade && sudo apt-get update
+		sleep 4
+
+ echo "Instalando o git clone"
+		sleep 2
+	sudo apt-get install git
+		sleep 4
+ 
+echo "Instalando o Unity-tweak-tool"
+		sleep 2
+	sudo apt-get install unity-tweak-tool
+		sleep 4
+
+ echo "Baixando pacote de icones Flatabulous"	
+		sleep 2
+	git clone https://github.com/anmoljagetia/Flatabulous
+		sleep 4
+
+ echo "Copiando arquivo para pasta themes"
+		sleep 2
+	sudo cp -rf Flatabulous /usr/share/themes
+		sleep 4
+
+ echo "Executando permissão de arquivo"
+		sleep 2
+	sudo chmod 755 /usr/share/themes/Flatabulous
+		sleep 4
+
+ echo "add repositor"
+		sleep 2
+	sudo apt-add-repository ppa:numix/ppa
+		sleep 4
+ 
+ echo "atualizando !!"
+		sleep 2
+	sudo apt-get update
+		sleep 4
+
+ echo "Instalando os icons numix-icons."
+		sleep 2
+	sudo apt-get install numix-icon-theme numix-icon-theme-circle
+		sleep 4
+
+ echo "Unity-tweak-tool esta instalado..."
+     sleep 2
+
+echo "Abrindo unity-tweak-tool"
+      sleep 2 
+unity-tweak-tool
+
+
+#------------------------------------------------------------------------------------
+ echo ""
+ echo "por favor digite no seu terminal unity-tweak-tool"
+ echo "Agora vá na opção temas e mude para flatabulous"
+ echo "Agora vá na opção icons mude para Numix ou Numix-circle"
+
+sleep 10
