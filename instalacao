@@ -5,6 +5,7 @@
 #==========Dica como instalar===============================
 #$ chmod +x multiprogramas ----tanto permissão ao script    |
 #$ ./multiprogramas	   ----abrindo o programa em .sh    |
+#sudo apt-get install gnome-session-fallback ubuntu classic |
 #===========================================================
  echo "============================================================"
  echo "Unity tweak tool: Instalando o unity tweak tool para Ubuntu e Linux Mint."
