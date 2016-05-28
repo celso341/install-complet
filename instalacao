@@ -20,7 +20,7 @@
  echo "============================================================="
  echo "Removendo o seu unity tweak tool"
 		sleep 2
-	sudo apt-get remove - -purge unity-tweak-tool
+	sudo apt-get remove --purge unity-tweak-tool
 		sleep 4
 
  echo "Atualizando!!"
