@@ -6,6 +6,7 @@
 #$ chmod +x multiprogramas ----tanto permissão ao script    |
 #$ ./multiprogramas	   ----abrindo o programa em .sh    |
 #sudo apt-get install gnome-session-fallback ubuntu classic |
+#sudo /opt/lampp/lampp start	---subindo o lampp no linux |
 #===========================================================
  echo "============================================================"
  echo "Unity tweak tool: Instalando o unity tweak tool para Ubuntu e Linux Mint."
