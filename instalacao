@@ -3,8 +3,8 @@
 #while true; do
 #clear
 #==========Dica como instalar===============================
-#$ chmod +x multiprogramas ----tanto permissão ao script    |
-#$ ./multiprogramas	   ----abrindo o programa em .sh    |
+#$ chmod +x Nome_do_arquivo ----tanto permissão ao script    |
+#$ ./Nome_do_arquivo	   ----abrindo o programa em .sh    |
 #sudo apt-get install gnome-session-fallback ubuntu classic |
 #sudo /opt/lampp/lampp start	---subindo o lampp no linux |
 #===========================================================
